@@ -287,6 +287,77 @@ nav a:hover{
     border-radius: 20px;
 }
 
+/* Skills Section */
+.skills{
+    background-color: #efecff;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.skills-container{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-top: 80px;
+    height:220vh;
+}
+
+.skills-container h1{
+    width:100%;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    font-family: 'mainbold';
+    color: #2d2d2d;
+    font-size: 160px;
+}
+
+.thinking-img{
+    width:600px;
+}
+
+.thinking{
+    margin-top: -50px;
+    width:100%;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+}
+
+.skill-img{
+    
+    width:90%;
+}
+
+.all-skills{
+    margin-top: -550px;
+    width:100%;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    animation:appear linear;
+}
+
+
+.skills-container h2{
+    padding-bottom: 10px;
+    width:100%;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    font-family: 'mainbold';
+    color: #2d2d2d;
+    font-size: 80px;
+}
+
+.intro-video{
+    padding-top: 200px;
+    width:100%;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+}
 
 
 @media screen and (max-width: 768px) {

@@ -6,17 +6,16 @@
         <link rel="icon" href="Assets/Logo.png">
         <title>Portfolio</title>
     </head>
-    <body>
+    <body id="home">
         <nav>
-            <div class="logo"><img href="#" src="Assets/logo.png" class="logo-img"></img></div>
+            <div class="logo"><a href="#home"><img src="Assets/logo.png" class="logo-img"></a></img></div>
             <div class="links">
                 <a href="#proj">Projects</a>
-                <a href="#">Skills</a>
+                <a href="#can-do">Skills</a>
                 <a href="#">Contact</a>
             </div>
             
         </nav>
-
         <section class="hero">
         <div class="hero-container">
             <div class="left-column"> 
@@ -59,7 +58,7 @@
             <div class="rush-container">
                 <div class="left-column"> 
                     <h2>FIRST PROJECT WITH UI</h2>
-                    <h1 href="https://github.com/smmariquit/passenger-rush">Paper rush</h1>
+                    <a href="https://github.com/smmariquit/passenger-rush"><h1>Paper rush</h1></a>
                     <p>A CMSC 22 Project where 2 jeeps battle it out to go and collect as many passengers in under 5 minutes.</p>
                     <p>Can you deliver them into their destination?</p>
                 </div>
@@ -69,9 +68,22 @@
             </div>
         </section>
         
-        <section class="skills">
+        <section id="can-do" class="skills">
             <div class="skills-container">
+                <h1>What can I do?</h1>
+                <div class="thinking"><img src="Assets/thinking.svg" class="thinking-img"></img></div>
+                <div class="all-skills"><img src="Assets/skills.png" class="skill-img"></img></div>
+                <div class="intro-video">
+                <h2>My Introduction</h2>
+                
+                    <video width="896" height="504" controls>
+                        <source src="Assets/introvid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                </div>
+               
             </div>
+           
         </section>
 
         <section class="footer">
