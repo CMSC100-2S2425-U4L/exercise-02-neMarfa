@@ -26,6 +26,8 @@ body{
 
 /* Nav bar */
 nav{
+    position: sticky;
+    top: 0;
     height:64px;
     background:#2d2d2d;
     display:flex;
@@ -95,15 +97,15 @@ nav a:hover{
 /* animated text for list of nicknames */
 .hero-container .left-column h1:after{
     content: '';
-    animation: nicknames 10s infinite linear;
+    animation: nicknames 12s infinite linear;
 }
 
 @keyframes nicknames{
-    0%{content:"Tres"}
-    25%{content:"Norms"}
+    0%{content:"Norman"}
+    25%{content:"Tres"}
     50%{content:"Third"}
-    75%{content:"Thad"}
-    100%{content:"Norman"}
+    75%{content:"Norms"}
+    100%{content:"Thad"}
 }
 /* animated text for list of nicknames end */
 
@@ -116,12 +118,13 @@ nav a:hover{
 }
 
 .hero-container .left-column p{
-    font-style: normal;
+    font-family: 'main';
+    font-style: oblique;
     color: #3b3f46;
     margin-bottom: 1rem;
     font-size: 20px;
     line-height: 20px;
-    padding-right: 200px;
+    padding-right: 210px;
 }
 
 .hero-container .right-column{
@@ -135,8 +138,6 @@ nav a:hover{
  max-width: 100%;
 
 }
-
-
 
 
 
@@ -173,32 +174,117 @@ nav a:hover{
 
 .typing-container .right-column{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
-    align-items: center;
-    padding-right: 0px;
+    align-items: flex-start;
+    padding-left: 100px;
+
 }
 
 .typing-container .right-column h1{
     font-family: 'mainbold';
     color: #efecff;
     font-size: 75px;
+    margin-bottom: 30px;
 }
 
 .typing-container .right-column h2{
     font-style: italic;
-    font-family: 'mainbold';
+    font-family: 'main';
     color:#444b56;
-    font-size: 30px;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-left: 220px
 }
 
 .typing-container .right-column p{
-    font-style: normal;
+    font-style: oblique;
+    font-family: 'main';
     color: #efecff;
     margin-bottom: 1rem;
     font-size: 20px;
     line-height: 20px;
-    padding-right: 200px;
+    padding-right: 280px;
+}
+
+
+.typing-container .left-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+
+.typing{
+    max-width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+/* Passenger Rush Section */
+.rush-game{
+    background-color: #2b7cfc;
+    display: flex;
+}
+
+.rush-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:60vh;
+}
+
+.rush-container .left-column{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 100px;
+
+}
+
+.rush-container .left-column h1{
+    font-family: 'mainbold';
+    color: #efecff;
+    font-size: 75px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.rush-container .left-column h2{
+    font-style: italic;
+    font-family: 'main';
+    color:#7795c4;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-right: 100px
+}
+
+.rush-container .left-column p{
+    font-style: oblique;
+    font-family: 'main';
+    color: #efecff;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 300px;
+}
+
+
+.rush-container .right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+
+.rushing{
+    max-width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
 }
 
 
