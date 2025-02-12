@@ -33,10 +33,12 @@ nav{
     align-items: center;
     padding:64px 100px; 
 }
+
 .logo{
     cursor: pointer;
     padding: 0 40px;
 }
+
 .logo-img{
     max-width: 60%;
     max-height: 60%;
@@ -48,13 +50,14 @@ nav a{
     color:#efecff;
     text-decoration:none;
     padding: 0 1.5rem;
-}
-
-.links a{
     transition: all 0.3 ease 0s;
 }
 
-.links a:hover{
+.links{
+    padding-right: 40px;
+}
+
+nav a:hover{
     color:#2b7cfc;
 }
 
@@ -68,7 +71,7 @@ nav a{
 .hero-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height:95vh;
+    height:85vh;
     padding-right: 150px;
     padding-left: 150px;
 }
@@ -118,7 +121,72 @@ nav a{
 
 }
 
+
+
+
+
 /* Section */
+.notable{
+    background-color: #222428;;
+    display: flex;
+    justify-content: center;
+}
+
+.notable-container{
+    display:flex;
+    align-items: center;
+    height:30vh;
+}
+
+.notable-container h1{
+    font-family: 'mainbold';
+    color: #efecff;
+    font-size: 160px;
+}
+
+/* typing game section */
+.typing-game{
+    background-color: #2d2d2d;;
+    display: flex;
+}
+
+.typing-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:60vh;
+}
+
+.typing-container .right-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.typing-container .right-column h1{
+    font-family: 'mainbold';
+    color: #efecff;
+    font-size: 75px;
+}
+
+.typing-container .right-column h2{
+    font-style: italic;
+    font-family: 'mainbold';
+    color:#444b56;
+    font-size: 30px;
+}
+
+.typing-container .right-column p{
+    font-style: normal;
+    color: #efecff;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    line-height: 20px;
+    padding-right: 200px;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .hero-container{
