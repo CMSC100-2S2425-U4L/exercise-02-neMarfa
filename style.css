@@ -92,6 +92,21 @@ nav a:hover{
     font-size: 160px;
 }
 
+/* animated text for list of nicknames */
+.hero-container .left-column h1:after{
+    content: '';
+    animation: nicknames 10s infinite linear;
+}
+
+@keyframes nicknames{
+    0%{content:"Tres"}
+    25%{content:"Norms"}
+    50%{content:"Third"}
+    75%{content:"Thad"}
+    100%{content:"Norman"}
+}
+/* animated text for list of nicknames end */
+
 .hero-container .left-column h2{
     font-family: 'mainbold';
     color:#2d2d2d;
